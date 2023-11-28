@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let score = 0;
   
   const dinoSprite = new Image();
-  dinoSprite.src = 'img/dino.png';
+  dinoSprite.src = 'dino.png';
   const dino = {
       x: 50,
       y: canvas.height - 70,
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const marioSprite = new Image();
-  marioSprite.src = 'img/mario.png';
+  marioSprite.src = 'mario.png';
   const mario = {
       x: canvas.width,
       y: dino.y,
